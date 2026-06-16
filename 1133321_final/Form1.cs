@@ -31,7 +31,7 @@ namespace _1133321_final
         #region 資料庫初始化
         private void InitializeDatabase()
         {
-            // 🌟 3. 所有的 SqliteConnection 都改成 SQLiteConnection (L大寫)
+            //  3. 所有的 SqliteConnection 都改成 SQLiteConnection (L大寫)
             using (var connection = new SQLiteConnection(connectionString))
             {
                 connection.Open();
